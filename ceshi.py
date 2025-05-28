@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
 
-service = Service(r"C:\Users\栖栖\liulanqi\chromedriver-win64\chromedriver.exe")
+service = Service(r"C:\Users\liulanqi\chromedriver-win64\chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 # 可替换指定领导的URL链接
 driver.get("https://liuyan.people.com.cn/threads/list?fid=573")
