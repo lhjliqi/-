@@ -31,6 +31,7 @@ driver.get("https://liuyan.people.com.cn/threads/list?fid=573")
 bash
 python ceship.py
 数据输出示例
+![image](https://github.com/user-attachments/assets/51dc3bd1-f8f7-4576-99ad-c835b07c3883)
 text
 问题标题：社区绿化改善建议
 回复状态：已回复
