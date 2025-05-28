@@ -11,8 +11,6 @@
 ✅ 数据格式化存储为标准文本文件
 
 ## 技术特性
-```mermaid
-graph TD
     A[初始化浏览器] --> B{新数据检测}
     B -->|存在| C[数据提取]
     B -->|不存在| D[终止程序]
@@ -31,7 +29,7 @@ service = Service(r"您的/chromedriver路径")
 driver.get("https://liuyan.people.com.cn/threads/list?fid=573")
 运行程序
 bash
-python ceshi.py
+python ceship.py
 数据输出示例
 text
 问题标题：社区绿化改善建议
