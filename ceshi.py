@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
 
+# 这里需要替换为自己的chromedriver插件的位置
 service = Service(r"C:\Users\liulanqi\chromedriver-win64\chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 # 可替换指定领导的URL链接
